@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.FlowerMapper">
+	<select id="selAll" resultType="flower">
+		select * from flower
+	</select>
+	
+	<select id="selOne" resultType="int">
+		select count(*) from flower
+	</select>
+	
+	<select id="selById" resultType="flower">
+		select * from flower where id = #{0}
+	</select>
+	
+	<select id="selByFlower" resultType="flower">
+		select * from flower
+		<where>
+			<choose>
+				<when test=""></when>
+			</choose>
+		</where>
+	</select>
+</mapper>

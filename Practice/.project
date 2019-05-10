@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Practice</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>lib/jxl.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/2019%E6%98%A5%E5%93%88%E7%90%86%E5%B7%A5%E5%AE%9E%E9%AA%8C/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C/%E6%8B%93%E5%B1%95%E5%8C%85/jxl.jar</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
